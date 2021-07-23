@@ -1,0 +1,242 @@
+/* Pâyidar & Mert Design */
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap'); /* 'Exo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); /* 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /* 'Pacifico', cursive; */
+
+:root {
+    --dark: #03031D;
+    --blurple: #5865F2;
+    --red: #ED4245;
+    --white: #FFFFFF;
+    --pink: #EB459E;
+    --yellow: #FEE75C;
+    --green: #57F287;
+}
+
+
+/* Genel */
+body{
+    background-color: black;
+    margin: 0;
+}
+::selection{
+    background: #333;
+    color: white;
+}
+
+hr{
+    background: white;
+    border: none;
+    height: 5px;
+    width: 5px;
+    display: block;
+    border-radius: 20px;
+}
+
+.image {
+position: absolute;
+ left: 0px;
+ top: 0px;
+ z-index: -1;
+}
+
+/* Head */
+.head{
+    background: transparent;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.head > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+    float: left;
+}
+.head > a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+    float: right;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: 250ms all;
+    position: relative;
+    top: 20px;
+    border-radius: 5em;
+    box-shadow: 0px 0px 0px 1px white;
+}
+.head > a:hover{
+    box-shadow: initial;
+    background: white;
+    color: black;
+}
+
+/* K - About */
+.k-about{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(0, -50%);
+}
+.k-about > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.k-about > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+
+.container{
+  margin-top: 20px;
+  overflow: hidden;
+}
+.container img{
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 30px / 20px;
+}
+.container > .description{
+  text-align: center;
+  margin-top: 5px;
+}
+.container > .description h1{
+  font-family: 'Pacifico', cursive;
+  font-weight: bolder;
+  color: white;
+}
+.container > .description p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+#footer{
+    padding: 16px;
+    overflow: hidden;
+    margin-top: 98px;
+}
+#footer .copyright{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: lighter;
+    line-height: 1;
+    text-align: center;
+    font-size: x-large;
+    opacity: .5;
+}
+#footer > #flex{
+    display: flex;
+}
+#footer > #flex > div{
+    padding: 6px;
+    margin: 20px;
+    flex: 1;
+    border-radius: 5px;
+}
+#footer > #flex > div h1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: lighter;
+    line-height: 1;
+}
+#footer > #flex > div a{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: lighter;
+    line-height: 1;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 250ms linear all;
+}
+#footer > #flex > div a:hover{
+    color: palegreen;
+    text-decoration: underline;
+}
+
+/* Responsive Css Start */
+@media screen and (max-width: 700px){
+    #footer > #flex{
+        display: initial;
+    }
+}
+
+#repos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25%;
+    flex: 1 1 25%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+#repos .repo {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25%;
+    flex: 1 1 25%;
+    width: auto;
+    margin: 10px;
+    background-color: #292b42;
+    border-radius: 15px;
+    height: auto;
+    -webkit-transition: 250ms;
+    transition: 250ms;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-shadow: 0px 10px 21px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 21px -12px rgba(0, 0, 0, 0.75);
+}
+
+#repos .repo .repo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#repos .repo p {
+    color: #cbd6ec;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+/* Pop Up */
+.pop-up{background-color: #111;padding: 10px;overflow: hidden;position: fixed;top: 0;left: 5500px;right: 0;bottom: 0;z-index: 999999999;transition: 500ms all;}
+.pop-up i{color: white;font-size: xx-large;float: right;transition: 250ms all;cursor: pointer;display: block;}
+.pop-up i:hover{color: #888;transform: scale(1.1);}
+.pop-up > h1{font-family: 'Montserrat', sans-serif;font-weight: lighter;color: white;text-align: center;font-size: 80px;}
+.pop-up > p{font-family: 'Montserrat', sans-serif;font-weight: lighter;color: white;text-align: center;}
