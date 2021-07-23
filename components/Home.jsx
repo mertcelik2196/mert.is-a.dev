@@ -35,7 +35,7 @@ fetch(`${window.location.origin}/api/repos`).then(res => res.json()).then(repos 
         <a href="https://www.instagram.com/mertcelik2196/"><i className="fab fa-instagram" /></a>
         <a href="https://github.com/mertcelik2196"><i className="fab fa-github" /></a>
         <a href="https://discord.com/users/708746139092123679"><i className="fab fa-discord" /></a>
-        <a href="#projeler" id="p">Projelerim</a>
+        <a href="#projeler" id="p">Projects</a>
         </div>
 
 
