@@ -41,7 +41,7 @@ fetch(`${window.location.origin}/api/repos`).then(res => res.json()).then(repos 
 
         <div className="pop-up">
                <i className="fas fa-times"></i>
-               <h1>Projelerim</h1>
+               <h1>My Projects</h1>
                <div className="buttonsholder mt-2">
                            <a href="https://merttube.vercel.app/" className="btn btn-lg buttons blurple text-white">MertTube</a>
                            <a href="/premid.zip" className="btn btn-lg buttons blurple text-white" target="_blank">TürkAnime PreMID</a>
