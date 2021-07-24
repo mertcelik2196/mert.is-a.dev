@@ -5,10 +5,10 @@ export default function App({ Component, pageProps }) {
         <>
             <Head>
                 <meta name="twitter:card" content="summary" />
-                <meta name="twitter:url" content="https://mert.is-a.dev" />
+                <meta name="twitter:url" content="https://mert.vercel.app/" />
                 <meta name="twitter:title" content="Mêrt" />
                 <meta name="twitter:description" content="Hello, My Name Is Mert. I'm Full-Stack Developer" />
-                <meta name="twitter:image" content="https://mert.is-a.dev/logo.gif" />
+                <meta name="twitter:image" content="https://mert.vercel.app/logo.gif" />
                 <meta name="twitter:creator" content="@Mêrt" />
                 <meta name="theme-color" content="#09C29E" />
                 <meta name="robots" content="follow, index" />
@@ -18,10 +18,10 @@ export default function App({ Component, pageProps }) {
                 <meta property="og:title" content="Mêrt#2196" />
                 <meta property="og:description" content="Hello, My Name Is Mert. I'm Full-Stack Developer" />
                 <meta property="og:site_name" content="Mert Çelik" />
-                <meta property="og:url" content="https://mert.is-a.dev" />
-                <meta property="og:image" content="https://mert.is-a.dev/logo.gif" />
+                <meta property="og:url" content="https://mert.vercel.app/" />
+                <meta property="og:image" content="https://mert.vercel.app/logo.gif" />
 
-                <link rel="shortcut icon" href="https://mert.is-a.dev/logo.gif" />
+                <link rel="shortcut icon" href="https://mert.vercel.app/logo.gif" />
                 <title>Mert</title>
 
                 {/* CSS */}
