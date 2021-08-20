@@ -439,66 +439,7 @@ export default class Home extends Component {
 
   render() {
     return (<>
-      <style jsx="true">{`
-   canvas {
-    width: 100%;
-    height: 100%;
-    z-index: -999999999;
-  }
-  [class^="letter"] {
-    -webkit-transition: opacity 3s ease;
-    -moz-transition: opacity 3s ease;
-    transition: opacity 3s ease;
-  }
-  .letter-0 {
-    transition-delay: 0.2s;
-  }
-  .letter-1 {
-    transition-delay: 0.4s;
-  }
-  .letter-2 {
-    transition-delay: 0.6s;
-  }
-  .letter-3 {
-    transition-delay: 0.8s;
-  }
-  .letter-4 {
-    transition-delay: 1.0s;
-  }
-  .letter-5 {
-    transition-delay: 1.2s;
-  }
-  .letter-6 {
-    transition-delay: 1.4s;
-  }
-  .letter-7 {
-    transition-delay: 1.6s;
-  }
-  .letter-8 {
-    transition-delay: 1.8s;
-  }
-  .letter-9 {
-    transition-delay: 2.0s;
-  }
-  .letter-10 {
-    transition-delay: 2.2s;
-  }
-  .letter-11 {
-    transition-delay: 2.4s;
-  }
-  .letter-12 {
-    transition-delay: 2.6s;
-  }
-  .letter-13 {
-    transition-delay: 2.8s;
-  }
-  .letter-14 {
-    transition-delay: 3.0s;
-  }
-  .letter-15 {
-    transition-delay: 3.2s;
-  }
-    `}</style>
+
       <canvas></canvas>
     </>
     );
