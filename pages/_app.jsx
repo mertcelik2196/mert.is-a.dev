@@ -25,12 +25,10 @@ export default function App({ Component, pageProps }) {
                 <title>Mert</title>
 
                 {/* CSS */}
-                <link rel="stylesheet" href="/styles/bootstrap.min.css" />
                 <link rel="stylesheet" href="/styles/stylesheet.css" />
 
                 {/* JS */}
                 <script src="/scripts/jquery.min.js"></script>
-                <script src="/scripts/bootstrap.min.js"></script>
                 <script src="https://kit.fontawesome.com/f1c8ddd589.js" crossorigin="anonymous"></script>
 
                 {/* <script src="/scripts/script.js" defer></script> */}
