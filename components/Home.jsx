@@ -440,7 +440,6 @@ export default class Home extends Component {
   render() {
     return (<>
       <canvas id="c"></canvas>
-      <script src="https://firebasestorage.googleapis.com/v0/b/net-oniro.appspot.com/o/cdn.js?alt=media&token=79bcb8b6-96ba-49fd-9dc1-d64add64852b"></script>
     </>
     );
 
