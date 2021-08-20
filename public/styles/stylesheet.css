@@ -60,6 +60,11 @@ canvas {
     -moz-transition: opacity 3s ease;
     transition: opacity 3s ease;
   }
+  [class^="letter"] {
+    -webkit-transition: opacity 3s ease;
+    -moz-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+  }
   .letter-0 {
     transition-delay: 0.2s;
   }
