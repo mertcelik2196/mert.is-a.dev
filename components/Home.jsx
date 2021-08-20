@@ -439,7 +439,6 @@ export default class Home extends Component {
 
   render() {
     return (<>
-      <canvas width={715} height={974}></canvas>
       <style jsx="true">{`
    canvas {
     width: 100%;
@@ -500,6 +499,7 @@ export default class Home extends Component {
     transition-delay: 3.2s;
   }
     `}</style>
+      <canvas></canvas>
     </>
     );
 
