@@ -19,14 +19,14 @@
 
 body {
     margin: 0;
-    background-color: var(--dark);
+    background-color: black;
 }
 
 canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+    width: 100% !important;
+    height: 100% !important;
+    z-index: -999999999 !important;
+  }
 
 ::selection {
     color: var(--white);

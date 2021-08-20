@@ -32,7 +32,6 @@ export default function App({ Component, pageProps }) {
                 <script src="/scripts/jquery.min.js"></script>
                 <script src="/scripts/bootstrap.min.js"></script>
                 <script src="https://kit.fontawesome.com/f1c8ddd589.js" crossorigin="anonymous"></script>
-                <script src="/scripts/api.min.js"></script>
 
                 {/* <script src="/scripts/script.js" defer></script> */}
             </Head>
