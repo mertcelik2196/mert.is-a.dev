@@ -1,0 +1,159 @@
+/* Pâyidar & Mert Design */
+
+:root {
+    --dark: #03031D;
+    --blurple: #5865F2;
+    --red: #ED4245;
+    --white: #FFFFFF;
+    --pink: #EB459E;
+    --yellow: #FEE75C;
+    --green: #57F287;
+}
+
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Denk One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Denk One'), local('DenkOne-Regular'), url(https://fonts.gstatic.com/s/denkone/v7/dg4m_pzhrqcFb2IzRNtAr7w.ttf) format('truetype');
+}
+
+.mert-t {
+    font-family: 'Denk One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Denk One'), local('DenkOne-Regular'), url(https://fonts.gstatic.com/s/denkone/v7/dg4m_pzhrqcFb2IzRNtAr7w.ttf) format('truetype');
+    /* font-size: 10px; */
+}
+
+.typed-cursor {
+background: none;
+user-select: none;
+opacity: 0;
+visibility: hidden;
+}
+
+
+#animation {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+
+.box {
+    overflow: hidden;
+    background-color: #111;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+    opacity:0.6;
+    filter:alpha(opacity=60)
+}
+
+.box>.box-image>img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box>h1 {
+    font-family: balsamiq sans, cursive;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+
+.box>p {
+    font-family: balsamiq sans, cursive;
+    font-weight: bolder;
+    color: #bbb;
+    text-align: center;
+    font-style: italic;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-box>div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.flex-box>div>a {
+    font-family: balsamiq sans, cursive;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: 250ms all;
+}
+
+.flex-box>div>hr {
+    border: none;
+    background: #bbb;
+    height: 2px;
+    transition: 250ms all;
+}
+
+.flex-box>div>a:hover+hr {
+    background: red;
+}
+
+/* @media screen and (max-width:900px) {
+    body {
+        background-color: black;
+        z-index: -1
+    }
+    .box {
+        z-index: 99999;
+        overflow: initial;
+        border-radius: initial;
+        transform: initial;
+        width: initial;
+        box-shadow: initial;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    .box>.box-image>img {
+        border-radius: 500%
+    }
+}
+
+@media screen and (max-width:900px) {
+    .box>.box-image>img {
+        margin: 50px 0 0
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .box>.box-image>img {
+        margin: 100px 0 0
+    }
+} */
+
+::selection {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+::-moz-selection {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--blurple);
+}
