@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
                 <meta name="author" content="Mêrt" />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Mêrt#2196" />
+                <meta property="og:title" content="Mêrt" />
                 <meta property="og:description" content="Hello, My Name Is Mert. I'm Full-Stack Developer" />
                 <meta property="og:site_name" content="Mert Çelik" />
                 <meta property="og:url" content="https://mert.vercel.app/" />
